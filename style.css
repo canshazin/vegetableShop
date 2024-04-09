@@ -1,0 +1,39 @@
+#alert {
+  text-align: center;
+  color: red;
+}
+
+#mainDiv {
+  padding: 10px;
+  background-color: aqua;
+}
+#list {
+  background-color: beige;
+  padding: 20px;
+}
+button[type="submit"] {
+  margin: 5px;
+  background-color: rgb(23, 236, 23);
+}
+button {
+  margin-left: 6px;
+  margin-top: 3px;
+}
+.del {
+  background-color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+#sellQty {
+  margin-left: 5px;
+}

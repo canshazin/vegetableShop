@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="background-color: blueviolet; margin: 0px; text-align: center">
+      VEGETABLES SHOP
+    </h1>
+    <div id="mainDiv">
+      <form>
+        <label for="itemName">Item Name : </label>
+        <input type="text" id="itemName" />
+
+        <label for="price">price : </label>
+        <input type="number" id="price" />
+        <label for="qty">Quantity : </label>
+        <input type="number" id="qty" />
+        <button type="submit">Add Item</button>
+        <div id="alert"></div>
+      </form>
+    </div>
+    <div id="list">
+      <ul>
+        <li
+          id="total"
+          style="font-size: 20px; font-family: arial; font-weight: 700"
+        >
+          Total:0
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+  <script src="index.js"></script>
+</html>
